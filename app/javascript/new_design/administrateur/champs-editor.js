@@ -6,7 +6,8 @@ import DraggableList from './DraggableList';
 
 Vue.component('Draggable', Draggable);
 Vue.component('DraggableItem', DraggableItem);
-
+var VueScrollTo = require('vue-scrollto');
+Vue.use(VueScrollTo, {duration: 1500, easing: "ease"});
 addEventListener('DOMContentLoaded', () => {
   const el = document.querySelector('#champs-editor');
   if (el) {
