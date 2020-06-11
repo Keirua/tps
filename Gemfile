@@ -106,6 +106,8 @@ group :development do
   gem 'scss_lint', require: false
   gem 'web-console'
   gem 'xray-rails'
+  gem 'derailed_benchmarks'
+  gem 'stackprof'
 end
 
 group :development, :test do
