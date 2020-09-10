@@ -58,4 +58,10 @@ Rails.application.configure do
     debounce_delay: 500,
     status_visible_duration: 500
   }
+
+  config.after_initialize do
+    Bullet.enable = true
+    Bullet.bullet_logger = true
+    Bullet.raise = true # raise an error if n+1 query occurs
+  end
 end
