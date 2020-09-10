@@ -129,6 +129,9 @@ GEM
     brakeman (4.8.1)
     browser (4.0.0)
     builder (3.2.4)
+    bullet (6.1.0)
+      activesupport (>= 3.0.0)
+      uniform_notifier (~> 1.11)
     byebug (11.1.1)
     capybara (3.32.1)
       addressable
@@ -705,6 +708,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
+    uniform_notifier (1.13.0)
     validate_email (0.1.6)
       activemodel (>= 3.0)
       mail (>= 2.2.5)
@@ -773,6 +777,7 @@ DEPENDENCIES
   bootstrap-wysihtml5-rails (~> 0.3.3.8)
   brakeman
   browser
+  bullet
   byebug
   capybara
   capybara-email
